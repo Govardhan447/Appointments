@@ -1,0 +1,43 @@
+.list-appointments {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  border: 3px solid #b5b7c4;
+  margin-right: 10px;
+  align-items: flex-start;
+  padding: 15px;
+}
+.title {
+  color: #171f46;
+  font-size: 30px;
+  font-family: roboto;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+.appoinment-item-box-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.star-img {
+  width: 40px;
+  height: 40px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
